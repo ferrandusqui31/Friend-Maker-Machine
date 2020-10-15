@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles */
+
+h1, h3{
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h3{
+    font-size: 25px;
+    margin: 10px;
+}
+
+input{
+    background: rgba(255, 255, 255, .5);
+    border: double rgba(0, 0, 0, .7);
+}
+
+.texts{
+    margin: 15px;
+}
+
+.form{
+    display: flex;
+    margin: 12px;
+    padding: 10px;
+    padding-left: 0;
+    align-items: baseline;
+}
+
+input{
+    margin: 3px;
+    padding: 2px;
+}
+
+.contenedor{
+    margin-left: 15px;
+}
+
+.button:hover{
+    padding: 5px;
+    background: rgba(255, 255, 255, .8);
+}
+
+footer{
+    background: #000;
+    color: #fff;
+    padding: 15px;
+    padding-right: calc(50% - 99px);
+    padding-left: calc(50% - 99px);
+    text-align: center;
+    position: fixed;
+    top: calc(100% - 50px);
+}
+
+.button{
+    transition: padding 200ms;
+}
+
+.contenedor p{
+    transition: 2000ms color;
+    transition-timing-function: linear;
+}
+
+.texts{
+    transition: 2000ms color;
+    transition-timing-function: linear;
+}
+
+body{
+    transition: 2000ms background;
+    transition-timing-function: linear;
+}
+
+/* Colors */
+.red{
+    background: #FF0000;
+}
+
+.yellow{
+    background: #FFF700;
+}
+
+.green{
+    background: #00FF00;
+}
+
+.turquese{
+    background: #00FFFB;
+}
+
+.blue{
+    background: #0000ff;
+    color: #fff;
+}
+
+.pink{
+    background: #FF00EC;
+}
